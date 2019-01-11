@@ -1,0 +1,18 @@
+oracle_db:
+  dsn:
+    host: ORACLE_HOST
+    port: 1521
+    service_name: ORACLE_SERVICE
+  connection:
+    user: ORACLE_USER_NAME
+    password: ORACLE_USER_PASSWORD
+    dsn: .
+    encoding: UTF-8
+
+hive_db:
+    host: HIVE_HOST
+    port: 10000
+    username: HIVE_USER_NAME
+    password: HIVE_USER_PASSWORD
+    auth: LDAP
+    database: HIVE_DATABASE
